@@ -1,9 +1,49 @@
-things = raw_input("Input a number of things: ")
-print "You input %s Things" % (things)
-things = int(things)
-if things < 10:
-    print "There are less than 10 things"
-elif things > 10:
-    print "There are more than 10 things"
-else:
-    print "There are 10 things"
+voimport turtle
+import time
+t = turtle.Pen()
+
+t.up()
+t.left(180)
+t.forward(340)
+t.right(90)
+t.forward(288)
+t.right(180)
+t.down()
+for x in range(1, 336):
+    t.forward(50)
+    t.up()
+    t.forward(100)
+    t.down()
+    t.forward(130)
+    t.up()
+    t.forward(80)
+    t.down()
+    t.forward(40)
+    t.up()
+    t.forward(70)
+    t.down()
+    t.forward(95)
+    t.left(90)
+    t.forward(1)
+    t.left(90)
+    t.forward(50)
+    t.up()
+    t.forward(100)
+    t.down()
+    t.forward(130)
+    t.up()
+    t.forward(80)
+    t.down()
+    t.forward(40)
+    t.up()
+    t.forward(70)
+    t.down()
+    t.forward(95)
+    t.right(90)
+    t.forward(1)
+    t.right(90)
+
+time.sleep(10)
+
+for x in range(1, 336):
+    t.
